@@ -12,7 +12,7 @@ This guide will walk you through creating a `macvlan` network on your TrueNAS sy
 
 ## Step 1: Create the `macvlan` Network on TrueNAS
 
-The `macvlan` network driver creates a network where Docker containers directly appear as physical devices on your network, each with its own MAC and IP address. This step is performed directly on your TrueNAS system's shell, as Portainer currently make it possible to do it properly.
+The `macvlan` network driver creates a network where Docker containers directly appear as physical devices on your network, each with its own MAC and IP address. This step is performed directly on your TrueNAS system's shell, as Portainer currently does not support extenal networks.
 
 1.  **Open TrueNAS Shell:** Access the TrueNAS shell. You can do this via the TrueNAS web interface (`System > Shell`) or by SSHing into your TrueNAS system.
 
